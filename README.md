@@ -8,9 +8,9 @@ Verifique se o compilador esta instalado no seu sistema:
 	gcc --version 
  
 Para compilar:
-	gcc hello.c -0 <file name> 
+	gcc hello.c -0 [file name] 
 
 file name e o nome do novo arquivo executavel
 
 para executar o arquivo compilado:
-	./<file name>
+	./[file name]
