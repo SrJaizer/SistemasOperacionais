@@ -19,13 +19,10 @@ bool recognizeCommand(char str[6]){
 
 int main(){
     char str[6];
-    //string str;
     char filePath[20];
     
     while(true){ 
         scanf("%s %s", str, filePath);
-        //printf("%s",str);
-        //printf("%s", filePath);
     
         if (recognizeCommand(str) == false){
             printf("comando incorreto!\n");
@@ -46,4 +43,5 @@ int main(){
         }
         printf("\n");
     }
+    return 0;
 }
