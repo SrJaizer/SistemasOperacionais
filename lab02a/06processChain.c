@@ -17,7 +17,7 @@ int main (int argc, char *argv[]) {
             break;
     
     // using sys.stdout
-    fprintf(stdout, "i:%d process ID:%ld parent ID:%ld child ID:%ld\n",
+    printf("i:%d process ID:%ld parent ID:%ld child ID:%ld\n",
         i, (long)getpid(), (long)getppid(), (long)childpid);
     return 0;
 }
