@@ -5,9 +5,9 @@ Compile o programa:
 Execute o binário resultante:
     ./concatenate
 
-Enquanto estiver executando, insira o comando "cat" seguido de um espaço em branco e o nome do arquivo a ser exibido na tela no final.
-Ex.:
+Enquanto estiver executando, insira o comando "cat" seguido de um espaço em branco e o nome do arquivo a ser exibido na tela no final. O programa não faz chamada de sitemas ao SO.
 
+Ex.:
 "cat test.txt"
 
 2)
