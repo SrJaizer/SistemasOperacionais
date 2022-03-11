@@ -19,13 +19,13 @@ int main()
 		printf("Entrei no filho!\n");
 		value += 15;
   		int *valueP = &value;
-    	read(pip[0], valueP, 4);
+    	write(pip[1], valueP, 4);
 		printf ("CHILD: value = %d\n",value); /* LINE A */
 		return 0;
 	}
 	else if (pid > 0) { /* parent process */
 		wait(NULL);
-    	write(pip[1], valueP, 4);
+    	read(pip[0], valueP, 4);
 		printf ("PARENT: value = %d\n",value); /* LINE A */
 		return 0;
 	}
