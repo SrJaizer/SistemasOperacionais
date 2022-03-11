@@ -7,9 +7,9 @@ int value = 5;
 
 int main()
 {
-  int  pip[2];
-
-  pipe(pip);
+  	int  pip[2];
+ 	int *valueP = &value;
+	pipe(pip);
 
 	pid_t pid;
 
@@ -18,7 +18,6 @@ int main()
 	if (pid == 0) { /* child process */
 		printf("Entrei no filho!\n");
 		value += 15;
-  		int *valueP = &value;
     	write(pip[1], valueP, 4);
 		printf ("CHILD: value = %d\n",value); /* LINE A */
 		return 0;
