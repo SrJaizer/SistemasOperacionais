@@ -4,4 +4,4 @@ Eduardo Pollastrini Barbagallo
 Jair Gino Paca Huaman
 42081092
 
-A resposta está no 01multiprocessorFotorial
+A resposta está no 01multiprocessorFatorial
