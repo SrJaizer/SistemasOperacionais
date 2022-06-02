@@ -1,10 +1,10 @@
 ## Compilar o programa:
 ```bash
-gcc -pthread proj.c -lpthread -o proj
+gcc -pthread proj2.c -lpthread -o proj2
 ```
 ## Executar o programa:
 ```bash
-./proj
+./proj2
 ```
 ## Requisitos
 1. A conta to pode receber mais de uma transferência simultânea;
