@@ -16,7 +16,7 @@ receber e a conta que recebia pode enviar;
 
 ## Resultados
 Cada thread representa uma transação a ser feita,
-a cada transação e atribuída um índice único mostrada
+a cada transação é atribuída um índice único mostrada
 na mensagem de saída entre parênteses.
 
 <div align="center">
@@ -27,11 +27,11 @@ na mensagem de saída entre parênteses.
   <img src="https://i.imgur.com/qWK9x24.png" alt="100 Threads In Race Condition04">
 </div>
 
-No seguinte caso especifico, após 10 transações da conta c1 para conta c2,
+No seguinte caso específico, após 10 transações da conta c1 para conta c2,
 a conta c1 tenta realizar mais uma transação mas não pode
-pois possui saldo menor que o valor da transação, para realizar
-a transação a thread ira esperar que ocorra
-alguma transação a favor de c1 e em seguida ira verifica se
+pois possuí saldo menor que o valor da transação, para realizar
+a transação a thread terá que esperar que ocorra
+alguma transação a favor de c1 e em seguida irá verifica se
 o valor depositado é maior ou igual ao valor da transação.
 
 <div align="center">
